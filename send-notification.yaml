@@ -30,16 +30,16 @@ spec:
         tier: notification
     spec:
       containers:
-        - image: anthonyamanse/send-notification:v1
+        - image: samirpradhan/send-notification:v1
           imagePullPolicy: Always
           name: send-notification
           env:
             - name: GMAIL_SENDER_USER
-              value: 'username@gmail.com'
+              value: 'samir.pradhan.hyd@gmail.com'
             - name: GMAIL_SENDER_PASSWORD
-              value: 'password@gmail.com'
+              value: 'xxxxxx'
             - name: EMAIL_RECEIVER
-              value: 'sendTo@gmail.com'
+              value: 'samirp@virtusa.com'
             - name: OPENWHISK_API_URL_SLACK
               value: ''
             - name: NOTIFICATION_MESSAGE

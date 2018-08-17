@@ -30,7 +30,7 @@ spec:
         tier: transaction
     spec:
       containers:
-        - image: anthonyamanse/transaction-generator-office-space:1.0
+        - image: samirpradhan/transaction-generator-office-space:1.0
           name: transaction-generator
           ports:
             - containerPort: 8080

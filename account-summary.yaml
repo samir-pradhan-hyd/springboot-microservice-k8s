@@ -32,7 +32,7 @@ spec:
         tier: summary
     spec:
       containers:
-        - image: anthonyamanse/account-summary:secrets
+        - image: samirpradhan/account-summary:secrets
           imagePullPolicy: Always
           name: account-summary
           env:
